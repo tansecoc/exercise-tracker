@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(109, 109, 109)
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.exercise-table {
+  border-collapse: collapse;
+  margin: 10px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.exercise-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: center;
+}
+
+.exercise-table th,
+.exercises-table td {
+  padding: 12px 15px;
+}
+
+.exercise-table tr {
+  border-bottom: thinsolid #dddddd;
+}
+
+.exercise-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.exercise-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.exercise-table tbody tr:hover {
+  font-weight: bold;
+  color: #009879;
+}
